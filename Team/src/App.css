@@ -1,0 +1,103 @@
+/* App.css */
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1400px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 30px;
+  box-sizing: border-box;
+  gap: 30px;
+}
+
+.employee-list, .team-list {
+  width: 49%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #e6f7ff;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 6px;
+  background-color: #0056b3;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+  transform: scale(1.05);
+}
+
+button:disabled {
+  background-color: #585555;
+  border-color: #1b1818;
+  cursor: not-allowed;
+}
+
+button.sort-button {
+  display: block;
+  margin: 0 auto 20px auto;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+button.sort-button:hover {
+  background-color: #218838;
+  border-color: #218838;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.average-age {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #555;
+  font-size: 18px;
+}
