@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import EmployeeList from './components/EmployeeList';
-import TeamList from './components/TeamList';
 import './App.css';
 
 const employees = [
