@@ -6,7 +6,7 @@ export default function RemoveBackground() {
 
 
     const handleRemoveBackground = async () => {
-        const apiKey = "mUfE2riZWPKGTp9CgGPciESM"
+        const apiKey = "2V9p2CBn85EjvWpAVcdSQgRE"
         const apiUrl = "https://api.remove.bg/v1.0/removebg"
 
         const formData = new FormData();
